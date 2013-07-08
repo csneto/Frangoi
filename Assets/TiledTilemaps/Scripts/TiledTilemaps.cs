@@ -304,7 +304,8 @@ public class TiledTilemaps : MonoBehaviour
 			if (reloadAndCommit) reloadAndCommit = false;
         }		
     }
-	
+
+//Interessante para gerar meshes
 	void GenerateTilemap()
 	{		
 		if(meshObject.GetComponent<MeshFilter>() != null) {
